@@ -1,0 +1,46 @@
+.asked {
+  padding-top: 7rem !important;
+  padding: 0 7rem;
+}
+
+.asked-top {
+  padding: 0 13rem;
+  text-align: center;
+}
+
+.asked-top h1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.asked-top p {
+  font-size: 1rem;
+}
+
+.asked-content-main {
+  background: #f5f7fa;
+  padding: 1.5rem 2rem;
+}
+
+.asked-content-main h1 {
+  font-size: 1.5rem;
+}
+
+.asked-content-main p {
+  font-size: 1rem;
+}
+
+.asked-content-choose li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #f5f7fa;
+  padding: .4rem 2rem;
+  margin: .4rem 0;
+}
+
+.asked-content-choose li p {
+  font-size: 1rem;
+}

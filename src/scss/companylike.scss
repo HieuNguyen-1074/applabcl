@@ -1,0 +1,20 @@
+@import "./valiabale.scss";
+
+.companylike{
+    padding-top: 5rem;
+    h1{
+        font-weight: 400;
+        display: block;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .logo-img{
+        margin-top: 2rem;
+        padding:  0 1rem;
+        @include displayFlex(space-between , center , false);
+        img{
+            padding:  0 3rem;
+        width: 15%;
+        }
+    }
+}

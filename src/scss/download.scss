@@ -1,0 +1,31 @@
+@import "./valiabale.scss"; 
+
+.download{
+    padding-top: 4rem;
+    flex-wrap: nowrap !important;
+    @include displayFlex(space-between , start , false);
+    &-main{
+        h1{
+            font-size: 2rem;
+            padding-bottom: .5rem;
+          }
+          p{
+              font-size: 1rem;
+          }
+          &-down{
+              padding-top: 2rem;
+              img{
+                  width: 17%;
+              }
+              img:nth-of-type(1){
+                  margin-right: 1rem;
+            }
+          }
+    }
+    &-img{
+        width: 60%;
+        img{
+            width: 100%;
+        }
+    }
+}

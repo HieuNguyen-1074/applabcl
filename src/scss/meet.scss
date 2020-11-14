@@ -1,0 +1,77 @@
+@import "./valiabale.scss"; 
+
+.meet{
+    padding-top: 7rem;
+    padding-left: 7rem;
+    width: 90%;
+    @include displayFlex(space-between , center , false);
+    &-img{
+        width: 40%;
+        img{
+            width: 100%;
+        }
+    }
+    &-content{
+        width: 60%;
+        &-top{
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                padding: .6rem 0;
+                font-size: 1rem;
+            }
+            
+        }
+        &-main{
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                padding: .6rem 0;
+                font-size: 1rem;
+            }
+        }
+        &-person{
+            @include displayFlex (stretch , center , false);
+             &-img{
+                 padding: 0  2rem;
+                 padding-left: 0;
+                 width: 15%;
+                 img{
+                  width: 100%;
+                 }
+             }
+             h1{
+                 font-size: 2rem;
+             }
+             p{
+                 font-size: 1rem;
+             }
+            &-navbar{
+                margin-left: auto;
+                span{
+                    display: inline-block;
+                    
+                }
+                
+                a{
+                    background: #eff3f8;
+                    padding: .4rem .5rem;
+                    padding-bottom: .2rem;
+                    border-radius: 100%;
+                }
+                a:nth-of-type(1){
+                    transform: translate(50px,50px);
+                }
+               
+            }
+
+        }
+    }
+    &-icon{
+        padding-bottom: .9rem ;
+        padding-left: 0 !important;
+        font-size: 2.5rem;
+    }
+}

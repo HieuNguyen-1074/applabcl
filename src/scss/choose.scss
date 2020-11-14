@@ -1,0 +1,34 @@
+@import "./valiabale.scss"; 
+
+.choose{
+     padding-top: 4rem;
+    &-top{
+        padding:  0 3rem;
+        text-align: center;
+        h1{
+          font-size: 2rem;
+          padding-bottom: 1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    &-content{
+        @include displayFlex(space-between  , center , false);
+        & >div{
+            width: (100% /3);
+            padding: 2rem;
+            text-align: center;
+            img{
+                width: 15%;
+            }
+            h1{
+                font-size: 1.5rem;
+                margin-bottom: .5rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+}

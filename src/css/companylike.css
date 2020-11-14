@@ -1,0 +1,25 @@
+.companylike {
+  padding-top: 5rem;
+}
+
+.companylike h1 {
+  font-weight: 400;
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.companylike .logo-img {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.companylike .logo-img img {
+  padding: 0 3rem;
+  width: 15%;
+}

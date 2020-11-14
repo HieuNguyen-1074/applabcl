@@ -1,0 +1,38 @@
+.download {
+  padding-top: 4rem;
+  flex-wrap: nowrap !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.download-main h1 {
+  font-size: 2rem;
+  padding-bottom: .5rem;
+}
+
+.download-main p {
+  font-size: 1rem;
+}
+
+.download-main-down {
+  padding-top: 2rem;
+}
+
+.download-main-down img {
+  width: 17%;
+}
+
+.download-main-down img:nth-of-type(1) {
+  margin-right: 1rem;
+}
+
+.download-img {
+  width: 60%;
+}
+
+.download-img img {
+  width: 100%;
+}

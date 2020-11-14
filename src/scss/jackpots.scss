@@ -1,0 +1,39 @@
+@import "./valiabale.scss";
+
+.jackpots{
+
+    padding-top: 5rem ;
+   
+    &-top{
+        padding: 0 2rem;
+        flex-wrap: nowrap !important;
+        @include displayFlex(space-between , center , false);
+        h1{
+            padding: 0 6rem;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    &-content{
+        padding: 0 8rem;
+        padding-top: 3rem;
+        @include displayFlex (space-between , start , false);
+        & > div {
+            width: 30%;
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+            img{
+                width: 5rem;
+                padding: 2rem ;
+                padding-bottom: 1rem;
+                padding-left: 0;
+            }
+        }
+    }
+}

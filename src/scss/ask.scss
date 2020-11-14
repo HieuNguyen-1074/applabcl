@@ -1,0 +1,42 @@
+@import "./valiabale.scss"; 
+
+.asked{
+    padding-top: 7rem !important;
+       padding: 0 7rem;
+    &-top{
+        padding:  0 13rem;
+        text-align: center;
+        h1{
+          font-size: 2rem;
+          padding-bottom: 1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    &-content{
+        
+        &-main{
+            background: #f5f7fa;
+            padding: 1.5rem 2rem;
+            h1{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+        &-choose{
+
+            li{
+                @include displayFlex(space-between , center ,false);
+                background: #f5f7fa;
+                padding: .4rem 2rem;
+                margin: .4rem 0;
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

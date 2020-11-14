@@ -1,0 +1,91 @@
+.meet {
+  padding-top: 7rem;
+  padding-left: 7rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.meet-img {
+  width: 40%;
+}
+
+.meet-img img {
+  width: 100%;
+}
+
+.meet-content {
+  width: 60%;
+}
+
+.meet-content-top h1 {
+  font-size: 2rem;
+}
+
+.meet-content-top p {
+  padding: .6rem 0;
+  font-size: 1rem;
+}
+
+.meet-content-main h1 {
+  font-size: 2rem;
+}
+
+.meet-content-main p {
+  padding: .6rem 0;
+  font-size: 1rem;
+}
+
+.meet-content-person {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.meet-content-person-img {
+  padding: 0  2rem;
+  padding-left: 0;
+  width: 15%;
+}
+
+.meet-content-person-img img {
+  width: 100%;
+}
+
+.meet-content-person h1 {
+  font-size: 2rem;
+}
+
+.meet-content-person p {
+  font-size: 1rem;
+}
+
+.meet-content-person-navbar {
+  margin-left: auto;
+}
+
+.meet-content-person-navbar span {
+  display: inline-block;
+}
+
+.meet-content-person-navbar a {
+  background: #eff3f8;
+  padding: .4rem .5rem;
+  padding-bottom: .2rem;
+  border-radius: 100%;
+}
+
+.meet-content-person-navbar a:nth-of-type(1) {
+  transform: translate(50px, 50px);
+}
+
+.meet-icon {
+  padding-bottom: .9rem;
+  padding-left: 0 !important;
+  font-size: 2.5rem;
+}

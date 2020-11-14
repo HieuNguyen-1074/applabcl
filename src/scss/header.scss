@@ -1,0 +1,55 @@
+@import "./valiabale.scss";
+
+.top{
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1rem 2rem;
+    letter-spacing: -1px;
+    @include displayFlex(space-between , center , flase );
+    h1{
+        margin-right: auto;
+        font-size: 1rem;
+        margin-top: -1px;
+        margin-left: 3px;
+        font-weight: 700;
+        color: $color-logo-main;
+        span {
+            color: #000;
+        }
+    }
+    &-navbar {
+        margin-right: 3.5rem;
+        @include displayFlex(space-between , center , flase );
+       
+        li{
+            
+            list-style: none;
+            font-size: .7rem;
+            text-transform: capitalize;
+            font-weight: 500;
+            margin-left: 2rem;
+        
+            
+         &:first-child{
+             margin-left: 0;
+         } 
+       
+        }
+   
+           
+        }
+        &-btn{
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: .5rem 0.8rem;
+            border-radius: 47px;
+            color: #fff;
+            background: #2500f9;
+            color: $color-white;
+            background : $color-btn-main;
+        }
+    
+}

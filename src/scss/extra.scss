@@ -1,0 +1,102 @@
+@import "./valiabale.scss"; 
+
+
+.extra{
+  &-content{
+     padding-top: 1rem;
+      p{
+          margin:  1rem 0;
+      }
+  }
+    &-top{
+        padding:  0 13rem;
+        text-align: center;
+        h1{
+          font-size: 2rem;
+          padding-bottom: 1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    &-btn-change{
+        margin-top: 2rem !important;
+        border: 1px solid $color-text-main;
+        width: fit-content;
+        margin: 0 auto;
+        padding:  .4rem 1rem;
+        border-radius: 40px;
+        position: relative;
+        display: block;
+        overflow: hidden;
+       
+        @include displayFlex(center ,center ,false);
+        p{
+            color: $color-white;
+        }
+        p:nth-of-type(2){
+            color : $color-text-main ;
+            padding-left: .8rem !important;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            z-index: -1;
+            height: 100%;
+            background: $color-btn-main;
+        }
+   
+}
+&-card{
+    padding-top: 4rem;
+    @include displayFlex (center , center , false);
+    & >div{
+        border: 1px solid #ebebeb;
+        padding-bottom: 4rem;
+        text-align: center;
+        margin: 0  1.7rem;
+        box-shadow: 0px 29px 58px -40px #000;
+    }
+    &-top{
+        padding: 1rem 2rem;
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(145,145,145,1) 0%, rgba(202,202,202,1) 0%, rgba(227,227,227,1) 0%, rgba(255,255,255,1) 100%);
+        .price{
+            font-size: 3rem;
+            padding-bottom: .3rem;
+            font-weight: 700;
+            span{
+                display: inline-block;
+                font-size: 1.5rem;
+                font-weight: 300;
+            }
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+    
+    }
+    &-bottom{
+        
+        a:nth-of-type(1){
+            background: $color-btn-main;
+            
+        }
+        a:nth-of-type(2){
+            padding-top: 1rem;
+            color:$color-text-main;
+        
+        }
+        a{
+            width: fit-content;
+            display: block;
+            margin: 0 auto;
+            padding: .6rem 1rem;
+            border-radius: 40px;
+            color: $color-white;
+        }
+    }
+}

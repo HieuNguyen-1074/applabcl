@@ -1,0 +1,65 @@
+@import "./valiabale.scss";
+
+.wrapper{
+    @include backgroundImg("../img/bg-wrapper_01.jpg");
+     &-img{
+         height: 100%;
+         img{
+             height: 100%;
+         }
+     }
+    &-container{
+        padding-top: 5rem;
+        height: 100vh;
+
+        @include displayFlex(space-between , center , false)
+    }
+    &-left{
+        width: 60%;
+        &-tag{
+            width: fit-content;
+            border-radius: 10px;
+            padding-right: 1rem;
+            background: #e2eaed;
+            @include displayFlex(start , center ,false);
+            img{
+                width: 19px;
+            border-radius: 100%;
+          background:#feaa25;
+            }
+           p{
+             
+               padding-left: .6rem;
+           }
+        }
+        &-content{
+            h1{
+                margin: .5rem 0;
+               
+            }
+            p{
+                margin: .5rem 0;
+            }
+        }
+        &-bottom{
+            margin-top: 1.5rem;
+           a{
+               font-weight: 700;
+               padding: .7rem 2rem;
+               color: $color-white;
+               border-radius: 20px;
+               &:nth-child(1){
+                background: $color-btn-main;
+               }
+               &:nth-child(2){
+                color: $color-text-main;
+               }
+           }
+           
+        }
+    }
+   
+}
+.icon-tag{
+    background: #feaa25;
+}
