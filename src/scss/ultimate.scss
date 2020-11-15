@@ -46,3 +46,101 @@
     border-radius: 40px;
    }
 }
+@media only screen and (max-width : 1396px){
+    .ultimate {
+        
+       &-content{
+           &-main{
+               & > div{
+                   width: 50%;
+                   padding: 1rem;
+                   img{
+                       width: 15%;
+                   }
+                   h1{
+                       font-size: 1.7rem;
+                   }
+                   p{
+                       font-size: 1rem;
+                   }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1212px){
+    .ultimate {
+        
+       &-content{
+           &-main{
+               & > div{
+                   h1{
+                       font-size: 1.4rem;
+                   }
+                   p{
+                       font-size: .9rem;
+                   }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width : 1084px){
+    .ultimate {
+        justify-content: center;
+        &-img{
+            z-index: 0;
+            position: absolute;
+        }
+       &-content{
+           z-index: 1;
+           text-align: center;
+           background: rgba(255,255,255, .6);
+           &-main{
+               & > div{
+                   
+                
+               }
+            }
+        }
+            }
+            
+}
+.ultimate-btn {
+    margin: 4rem auto;
+}
+@media only screen and (max-width : 640px){
+    .ultimate {
+       &-content{
+           &-main{
+               & > div{
+                   h1{
+                       font-size: 1.1rem;
+                   }
+                   p{
+                       font-size: .8rem;
+                   }
+                
+               }
+            }
+        }
+            }
+            
+}
+@media only screen and (max-width : 588px){
+    .ultimate {
+       &-content{
+           &-main{
+
+               & > div{
+                   width: 100%;
+                   img{
+                       width: 3rem;
+                   }
+                
+               }
+            }
+        }
+            }
+            
+}

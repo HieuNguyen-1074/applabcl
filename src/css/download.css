@@ -36,3 +36,51 @@
 .download-img img {
   width: 100%;
 }
+
+@media only screen and (max-width: 1380px) {
+  .download {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1088px) {
+  .download {
+    width: 95%;
+  }
+  .download-img {
+    width: 100%;
+  }
+  .download-img img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .download {
+    position: relative;
+  }
+  .download-main {
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+  }
+  .download-main p {
+    font-size: .8rem;
+  }
+  .download-main-down {
+    padding-top: 2rem;
+  }
+  .download-main-down img {
+    width: 30%;
+  }
+  .download-main-down img:nth-of-type(1) {
+    margin-right: 1rem;
+  }
+  .download-img {
+    position: absolute;
+    width: 50%;
+    z-index: 0;
+  }
+  .download-img img {
+    width: 100%;
+  }
+}

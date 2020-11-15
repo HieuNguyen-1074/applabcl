@@ -2,6 +2,7 @@
   background: #242f51;
   text-align: center;
   padding: 3rem 0;
+  margin-top: 2rem;
 }
 
 .footer h1 {
@@ -50,4 +51,32 @@
   padding-bottom: 1rem;
   color: #fff !important;
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    background: #242f51;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .footer h1 {
+    font-size: 2rem;
+  }
+  .footer-navbar li {
+    font-size: .8rem;
+  }
+  .footer-link li {
+    display: inline-block;
+    font-size: 1rem;
+    margin: .3rem .8rem;
+  }
+  .footer-link li a {
+    font-size: 1.1rem;
+  }
+  .footer-link li a svg {
+    fill: #fff;
+  }
+  .footer-copyright {
+    font-size: .7rem;
+  }
 }

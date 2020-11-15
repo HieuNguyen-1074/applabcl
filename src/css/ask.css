@@ -44,3 +44,48 @@
 .asked-content-choose li p {
   font-size: 1rem;
 }
+
+@media only screen and (max-width: 1536px) {
+  .asked-top {
+    padding: 0 4rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .asked-top {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .asked {
+    padding: 0 3rem;
+  }
+  .asked-top {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 776px) {
+  .asked {
+    padding: 0 0rem;
+  }
+  .asked-top {
+    padding: 0 2rem;
+  }
+  .asked-top p {
+    font-size: 1rem;
+  }
+  .asked-content-main h1 {
+    font-size: 1.3rem !important;
+  }
+  .asked-content-main p {
+    font-size: .8rem;
+  }
+  .asked-content-choose li {
+    padding: .1rem .3rem;
+  }
+  .asked-content-choose li p {
+    font-size: .8rem;
+  }
+}

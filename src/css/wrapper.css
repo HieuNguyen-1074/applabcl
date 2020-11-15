@@ -79,3 +79,141 @@
 .icon-tag {
   background: #feaa25;
 }
+
+@media only screen and (max-width: 1600px) {
+  .wrapper-img {
+    height: 100%;
+  }
+  .wrapper-img img {
+    height: 80%;
+  }
+  .wrapper-container {
+    padding-top: 5rem;
+    width: 90% !important;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1108px) {
+  .wrapper-img {
+    height: 80%;
+  }
+  .wrapper-img img {
+    height: 80%;
+  }
+  .wrapper-container {
+    padding-top: 5rem;
+    width: 90% !important;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 892px) {
+  .wrapper-left {
+    width: 50%;
+  }
+  .wrapper-left-tag p {
+    font-size: .7rem;
+    padding-left: .6rem;
+  }
+  .wrapper-left-content h1 {
+    font-size: 1.3rem;
+  }
+  .wrapper-left-content p {
+    font-size: .7rem;
+  }
+  .wrapper-left-bottom {
+    margin-top: 1.5rem;
+  }
+  .wrapper-left-bottom a {
+    padding: .5rem 1.7rem;
+    font-size: .7rem;
+  }
+}
+
+@media only screen and (max-width: 716px) {
+  .wrapper-img {
+    height: 60%;
+  }
+  .wrapper-left {
+    width: 50%;
+  }
+  .wrapper-left-tag p {
+    font-size: .5rem;
+    padding-left: .6rem;
+  }
+  .wrapper-left-content h1 {
+    font-size: 1rem;
+  }
+  .wrapper-left-content p {
+    font-size: .5rem;
+  }
+  .wrapper-left-bottom {
+    margin-top: 1.5rem;
+  }
+  .wrapper-left-bottom a {
+    padding: .4rem 1rem;
+    font-size: .5rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .wrapper-img {
+    padding-left: 2.8rem;
+    padding-top: 2rem;
+    position: absolute;
+    height: 100%;
+    z-index: 0;
+  }
+  .wrapper-left {
+    border: 1px solid #242f51;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    background: #fff;
+    width: 70%;
+  }
+  .wrapper-left-bottom {
+    margin-top: 1.5rem;
+  }
+  .wrapper-left-bottom a {
+    padding: .4rem 1rem;
+    font-size: .6rem;
+  }
+}
+
+@media only screen and (max-width: 504px) {
+  .wrapper-left {
+    margin: 0 auto;
+    padding: 3.5rem 3.2rem;
+    background: #fff;
+    width: 80%;
+  }
+  .wrapper-left-tag p {
+    font-size: .4rem;
+    padding-left: .6rem;
+  }
+  .wrapper-left-content h1 {
+    font-size: .7rem;
+  }
+  .wrapper-left-content p {
+    font-size: .4rem;
+  }
+  .wrapper-left-bottom {
+    margin-top: 1.5rem;
+  }
+  .wrapper-left-bottom a {
+    padding: .3rem .7rem;
+    font-size: .4rem;
+  }
+}

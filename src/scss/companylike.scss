@@ -18,3 +18,54 @@
         }
     }
 }
+@media only screen  and (max-width : 1448px){
+    .companylike{
+       
+        .logo-img{
+            @include displayFlex(space-between , center , false);
+            img{
+                padding:  0 3rem;
+            width: 20%;
+            }
+        }
+    }
+}
+@media only screen  and (max-width : 1196px){
+.companylike{
+    h1{
+        font-weight: 400;
+        display: block;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .logo-img{
+        img{
+            padding:  0 3rem;
+            margin-top: 2rem;
+            width: 30%;
+        }
+    }
+}
+}
+@media only screen  and (max-width : 1196px){
+    .companylike{
+        .logo-img{
+            @include displayFlex(space-between , center , false);
+            img{
+                padding:  0 3rem;
+                width: 30%;
+            }
+        }
+    }
+    }
+    @media only screen  and (max-width : 800px){
+        .companylike{
+            .logo-img{
+                @include displayFlex(space-between , center , false);
+                img{
+                    padding:  0 3rem;
+                    width: 50%;
+                }
+            }
+        }
+        }

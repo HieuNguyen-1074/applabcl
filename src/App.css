@@ -3,11 +3,13 @@ body{
   height: 100%;
   font-family: 'Poppins' ,sans-serif;
   width: 100vw;
+  overflow-X: hidden;
 }
 .max-width{
   width: 80%;
   margin: 0 auto;
 }
+
 *{
   color: #242f51;
   margin: 0;

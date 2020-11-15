@@ -33,6 +33,7 @@
             }
         }
         &-person{
+            padding-top: .5rem;
             @include displayFlex (stretch , center , false);
              &-img{
                  padding: 0  2rem;
@@ -75,3 +76,87 @@
         font-size: 2.5rem;
     }
 }
+@media only screen and (max-width : 1200px){
+    .meet{
+        padding-left: 4rem;
+        &-content{
+            &-top{
+                h1{
+                    font-size: 2rem;
+                }
+                p{
+                    padding: .6rem 0;
+                    font-size: 1rem;
+                }
+                
+            }
+            &-main{
+                h1{
+                    font-size: .7rem;
+                }
+            }
+            &-person{
+                 h1{
+                     font-size: 1.6rem;
+                 }
+                 p{
+                     font-size: .7rem;
+                 }
+                }
+                }
+    }
+}
+@media only screen and (max-width : 1050px){
+    .meet{
+        padding-left: 2rem;
+        &-content{
+            &-top{
+                h1{
+                    font-size: 1.8rem;
+                }
+                
+            }
+
+            &-person{
+                 h1{
+                     font-size: 1.4rem;
+                 }
+                 p{
+                     font-size: .7rem;
+                 }
+                }
+                }
+            }
+        }
+        @media only screen and (max-width : 908px){
+            .meet{
+                padding-left: 2rem;
+                position: relative;
+                &-img{
+                    position: absolute;
+                    width: 70%;
+                    z-index: 0;
+                }
+                &-content{
+                    z-index: 1;
+                    background: rgba(255 ,255,255 , .6) ;
+                    margin: 0 auto;
+                    width: 95%;
+                    &-main{
+                        h1{
+                            font-size: 1rem;
+                        }
+                    }
+                    &-top{
+                        h1{
+                            font-size: 1.8rem;
+                        }
+                    }
+                    &-person-infor{
+                        h1{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }

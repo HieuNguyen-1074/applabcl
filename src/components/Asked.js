@@ -16,8 +16,8 @@ and the world's most elevant channels such as Facebook.</p>
                     <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
                 </div>
                 <ul className ="asked-content-choose">
-                    <li><p>App installation failed, how to update system information?</p><BsPlus /></li>
-                    <li><p>Website reponse taking time, how to improve?</p><BsPlus /></li>
+                    <li><p>App installation failed,  system ?</p><BsPlus /></li>
+                    <li><p>Website reponse taking time,  improve?</p><BsPlus /></li>
                     <li><p>New update fixed all bug and issues</p><BsPlus /></li>
                     <li><p>How to contact with riders emergency?</p><BsPlus /></li>
                 </ul>

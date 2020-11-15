@@ -112,3 +112,39 @@
   border-radius: 40px;
   color: #fff;
 }
+
+@media only screen and (max-width: 1064px) {
+  .extra-content {
+    padding-top: 1rem;
+  }
+  .extra-content p {
+    margin: 1rem 0;
+  }
+  .extra-top {
+    padding: 0 6rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .extra {
+    width: 95%;
+  }
+  .extra-top {
+    padding: 0 4rem;
+    text-align: center;
+  }
+  .extra-top h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .extra-top p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 672px) {
+  .extra-card > div {
+    margin: 2rem;
+  }
+}

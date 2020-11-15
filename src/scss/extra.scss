@@ -100,3 +100,43 @@
         }
     }
 }
+@media only screen and (max-width : 1064px ){
+    .extra{
+        &-content{
+           padding-top: 1rem;
+            p{
+                margin:  1rem 0;
+            }
+        }
+          &-top{
+              padding:  0 6rem;
+              text-align: center;
+          }
+      }
+}
+@media only screen and (max-width : 840px ){
+    .extra{
+        width: 95%;
+          &-top{
+              padding:  0 4rem;
+              text-align: center;
+              h1{
+                font-size: 2rem;
+                padding-bottom: 1rem;
+              }
+              p{
+                  font-size: 1rem;
+              }
+            }
+        }
+}
+
+@media only screen and (max-width : 672px ){
+    .extra{
+         &-card{
+             &>div{
+                 margin: 2rem;
+             }
+         }
+        }
+}

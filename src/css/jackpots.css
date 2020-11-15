@@ -49,3 +49,101 @@
   padding-bottom: 1rem;
   padding-left: 0;
 }
+
+@media only screen and (max-width: 1300px) {
+  .jackpots {
+    width: 90%;
+  }
+  .jackpots-top h1 {
+    padding: 0;
+    padding-left: 1rem;
+    font-size: 1.7rem;
+  }
+  .jackpots-top p {
+    margin-left: 2rem;
+  }
+  .jackpots-content > div h1 {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 1072px) {
+  .jackpots-content {
+    padding: 0 3rem;
+    padding-top: 3rem;
+  }
+  .jackpots-content > div h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1008px) {
+  .jackpots-content {
+    padding: 0 3rem;
+    padding-top: 3rem;
+  }
+  .jackpots-content > div {
+    text-align: center;
+  }
+  .jackpots-content > div h1 {
+    font-size: 1.1rem;
+  }
+  .jackpots-content > div p {
+    font-size: .8rem;
+  }
+  .jackpots-content > div img {
+    width: 4rem;
+  }
+}
+
+@media only screen and (max-width: 785px) {
+  .jackpots-top {
+    flex-direction: column;
+    text-align: center;
+  }
+  .jackpots-top p {
+    padding: 0;
+    padding-top: 1rem;
+  }
+  .jackpots-content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .jackpots-content > div {
+    width: 60%;
+    text-align: center;
+  }
+  .jackpots-content > div h1 {
+    font-size: 1.1rem;
+  }
+  .jackpots-content > div p {
+    font-size: .8rem;
+  }
+  .jackpots-content > div img {
+    padding: 1rem;
+    width: 4rem;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .jackpots-top h1 {
+    font-size: 1.3rem;
+  }
+  .jackpots-top p {
+    font-size: .7rem;
+  }
+  .jackpots-content > div {
+    width: 80%;
+    text-align: center;
+  }
+  .jackpots-content > div h1 {
+    font-size: 1rem;
+  }
+  .jackpots-content > div p {
+    font-size: .8rem;
+  }
+  .jackpots-content > div img {
+    padding: 1rem;
+    width: 3.7rem;
+  }
+}

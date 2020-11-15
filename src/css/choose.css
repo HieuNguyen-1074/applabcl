@@ -42,3 +42,121 @@
 .choose-content > div p {
   font-size: 1rem;
 }
+
+@media only screen and (max-width: 948px) {
+  .choose-top {
+    padding: 0 3rem;
+  }
+  .choose-top h1 {
+    font-size: 1.7rem;
+  }
+  .choose-top p {
+    font-size: .8rem;
+  }
+  .choose-content > div {
+    width: 33.33333%;
+    padding: 2rem;
+    text-align: center;
+  }
+  .choose-content > div img {
+    width: 15%;
+  }
+  .choose-content > div h1 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+  }
+  .choose-content > div p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1096px) {
+  .choose-top {
+    padding: 0 3rem;
+  }
+  .choose-top h1 {
+    font-size: 1.7rem;
+  }
+  .choose-top p {
+    font-size: .8rem;
+  }
+  .choose-content > div {
+    width: 33.33333%;
+    padding: 2rem;
+  }
+  .choose-content > div img {
+    width: 15%;
+  }
+  .choose-content > div h1 {
+    font-size: 1.2rem;
+  }
+  .choose-content > div p {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (max-width: 904px) {
+  .choose-top {
+    padding: 0 3rem;
+  }
+  .choose-top h1 {
+    font-size: 1.7rem;
+  }
+  .choose-top p {
+    font-size: .8rem;
+  }
+  .choose-content > div {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+  .choose-top {
+    padding: 0 3rem;
+  }
+  .choose-top h1 {
+    font-size: 1.7rem;
+  }
+  .choose-top p {
+    font-size: .8rem;
+  }
+  .choose-content > div h1 {
+    font-size: 1rem;
+  }
+  .choose-content > div p {
+    font-size: .7rem;
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  .choose-top h1 {
+    font-size: 1.5rem;
+  }
+  .choose-content > div {
+    width: 100%;
+  }
+  .choose-content > div img {
+    width: 10%;
+  }
+  .choose-content > div h1 {
+    font-size: 1.2rem;
+  }
+  .choose-content > div p {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .choose-top h1 {
+    font-size: 1.1rem;
+  }
+  .choose-content > div img {
+    width: 10%;
+  }
+  .choose-content > div h1 {
+    font-size: .8rem;
+  }
+  .choose-content > div p {
+    font-size: .7rem;
+  }
+}

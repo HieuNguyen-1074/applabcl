@@ -40,3 +40,57 @@
         }
     }
 }
+@media only screen and (max-width : 1536px){
+    .asked {
+        &-top{
+            padding:  0 4rem;
+        }
+    }
+}
+@media only screen and (max-width : 1200px){
+    .asked {
+        &-top{
+            padding:  0 2rem;
+        }
+    }
+}
+@media only screen and (max-width : 970px){
+    .asked {
+        padding: 0 3rem;
+        &-top{
+
+            padding:  0 2rem;
+        }
+    }
+}
+
+@media only screen and (max-width : 776px){
+    .asked {
+        padding: 0 0rem;
+        &-top{
+
+            padding:  0 2rem;
+          p{
+              font-size: 1rem;
+          }
+        }
+        &-content{
+            &-main{
+            h1{
+                font-size: 1.3rem !important;
+            }
+            p{
+                font-size: .8rem;
+            }
+        }
+        &-choose{
+          li{
+              padding:  .1rem .3rem;
+              p{
+                  font-size: .8rem;
+              }
+          }
+        }
+        }
+    }
+}
